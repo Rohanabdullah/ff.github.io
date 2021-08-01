@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+div {
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 0, 255);
+}
+/* background attachment kepps the background fixed and give a peralal effect */
+
+.background {
+        background-image: url('./background.jpg') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+}  
+/* background positions */
+/* background repeat */
+.small-img {
+    margin-top: 20px;
+    background-image: url('./image/pexels-alina-kurson-8732939.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.folder-img {
+    margin-top: 10px;
+    background-image: url('./image/pexels-ksu&eli-8723266.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
